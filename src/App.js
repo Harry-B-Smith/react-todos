@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <div>
-        <div>
-          Your Todo's
+    <div className="mt-5 container"> 
+      <div className="card"> {/* Add Bootstrap row class */}
+        <div className="card-header"> {/* Add Bootstrap column class */}
+          <h1 className="text-center">Your Todo's</h1> {/* Add Bootstrap text-center class */}
         </div>
-        <div>
-          <table>
+        <div className="col">
+          <table className="table"> {/* Add Bootstrap table class */}
             <thead>
               <tr>
                 <th scope='col'>#</th>
