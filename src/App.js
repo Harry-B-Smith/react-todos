@@ -3,12 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="mt-5 container"> 
-      <div className="card"> {/* Add Bootstrap row class */}
-        <div className="card-header"> {/* Add Bootstrap column class */}
-          <h1 className="text-center">Your Todo's</h1> {/* Add Bootstrap text-center class */}
+      <div className="card"> 
+        <div className="card-header">
+          <h1 className="text-center">Your Todo's</h1> 
         </div>
-        <div className="col">
-          <table className="table"> {/* Add Bootstrap table class */}
+        <div className="card-body">
+          <table className="table table-hover"> 
             <thead>
               <tr>
                 <th scope='col'>#</th>
